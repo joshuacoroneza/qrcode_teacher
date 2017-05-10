@@ -83,7 +83,8 @@ function startScan() {
 
           }
     });
-            $('#myModal').modal('show')
+            //$('#myModal').modal('show') 
+            alert('asasa');
         },
         function (error) {
             alert("Scanning failed: " + error);
